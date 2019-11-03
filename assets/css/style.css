@@ -1,88 +1,64 @@
-header {
-    position: fixed;
-    top: 0;
-    border-bottom-color: #cccccc;
-    border-bottom: 2px solid;
+.navbar {
+    padding: 0 15% 0 15%;
+    border-bottom: 3px solid #cccccc;
     background-color: #ffffff;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    width: 100%;
+    position: fixed;
+    top: 0;
     z-index: 2;
 }
 
-.menu {
-    margin-right: 200px;
-    float: right;
+.navbar-expand-lg {
+    width: 100%;
 }
 
-#about{
-    position: absolute;
-    right: 330px;
+.nav-item {
     font-family: Arial, Helvetica, sans-serif;
-    margin: 40px;
-    padding-right: 30px;
-    border-right: 1px solid #cccccc;
-    color: #777777;
+    padding: 0 0 0 0;
 }
 
-#portfolio{
-    position: absolute;
-    right: 210px;
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 40px;
-    padding-right: 30px;
-    border-right: 1px solid #cccccc;
-    color: #777777;
-}
-
-#contact{
-    position: absolute;
-    right: 130px;
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 40px;
-    color: #777777;
-}
-
-#logo {
+/*logo*/
+a.navbar-brand {
     background-color: #4aaaa5;
+    width: 30%;
     color: white;
-    float: left;
-    width: 20%;
-    margin-left: 150px;
     text-align: center;
+    font-weight: bold;
+    padding: 15px 5px 15px 5px;
 }
 
-#logo:hover {
+a.navbar-brand:hover {
     background-color: #39fdf3;
 }
 
 body {
     background-image: url('../images/trees.png');
-    background-color: #ffffff;
-    font-family: Arial, Helvetica, sans-serif;    
-    color: #777777;
 }
 
 .container {
     font-family: Arial, Helvetica, sans-serif;
-    margin: 130px 150px 100px 150px;
-    padding: 20px 40px 40px 40px;
+    margin-top: 120px;
+    margin-bottom: 150px;
+    padding: 10px 40px 40px 40px;
     border: 2px solid #dddddd;
     background-color: #ffffff;
     max-width: 960px;
     overflow: auto;
+    z-index: 1;
+    color: #777777;
 }
 
-#main {
-    float: left;
+/*form fields*/
+form {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
     width: 100%;
- }
-
-#bio-image {
-    float: left;
-    padding: 0 20px 10px 0;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-top: 2%;
 }
 
-#footer {
+.footer {
     padding: 10px;
     background-color: #666666;
     font-family: Arial, Helvetica, sans-serif;
@@ -94,16 +70,52 @@ body {
     width: 100%;
     z-index: 2;
     margin-top: 60px;
-    }
-
-#box {
-    border: thin solid #777777;
-    padding-left: 15px;
 }
 
-#box-empty {
-    border: thin solid #777777;
-    padding: 100px;
+h1 {
+    color: white;
+}
+
+/*page title*/
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4aaaa5;
+    border-bottom:3px solid #cccccc;
+    padding-bottom: 25px;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.col-md {
+    padding: 0;
+}
+
+.project {
+    margin-bottom: 10%;
+}
+
+.project_text {
+    color: white;
+    background-color: #4aaaa5;
+    padding-top: 10px;
+    width: 300px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    position: absolute;
+    text-align: center;
+    bottom: 20px;
+}
+
+.project_text:hover {
+    background-color: #39fdf3;
+}
+
+a {
+    color: #777777;
+    font-weight: 10;
+    text-decoration: none;
 }
 
 button {
@@ -120,87 +132,44 @@ button:hover {
     background-color: #39fdf3;
 }
 
-h1 {
-    color: white;
+@media (max-width: 991.98px) {
+    .nav-item {
+        border: none;
+        padding-top: 20px;
+    }
+    
+    a.navbar-brand {
+        width: 30%;
+        display: block;
+        white-space:normal;
+        padding: 25px 5px 25px 5px;
+    }
+    
+    .navbar {
+        padding: 0 2% 0 2%;
+    }
+    
+    .navbar-toggler {
+        margin-bottom: 2%;
+        background-color: #ffffff;
+    }
+    
+    .navbar-toggler:active {
+        background-color: #39fdf3;
+    }
+    
+    .navbar-toggler:focus {
+        background-color: #ffffff;
+    }
 }
 
-h2 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: #4aaaa5;
-    border-bottom:3px solid #cccccc;
-    padding-bottom: 25px;
-    font-size: 30px;
-    margin-top: 10px;
-}
+@media (max-width: 576px) {
+    #about {
+        contain: layout;
+    }
 
-h3 {
-    font-weight: lighter;
-}
-
-a {
-    color: #777777;
-    font-weight: 10;
-    text-decoration: none;
-}
-
-a:hover {
-    color: #39fdf3;
-}
-
-p {
-    line-height: 1.25;
-}
-
-input[type=text] {
-    padding: 5px;
-    width: 100%;
-}
-
-input[type=email] {
-    padding: 5px;
-    width: 100%; 
-}
-
-#message {
-    padding: 5px;
-    width: 100%;
-    max-lines: 10;
-}
-
-input {
-    font-size: 16px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
- ::placeholder {
-    font-size: 16px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.project {
-    position: relative;
-    z-index: 1;
-    float: left;
-    margin: 20px;
-}
-
-.project_text {
-    color: white;
-    background-color: #4aaaa5;
-    width: 300px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 20px;
-    position: absolute;
-    text-align: center;
-    bottom: 20px;
-}
-
-.project_text:hover{
-    background-color: #39fdf3;
-}
-
-.clearfix::after{
-    content: "";
-    display: block;
-    clear: both;
+    a.navbar-brand {
+    white-space: normal;
+    font-size: 80%;
+    }
 }
