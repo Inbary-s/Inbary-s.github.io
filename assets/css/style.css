@@ -100,12 +100,13 @@ h2 {
     color: white;
     background-color: #4aaaa5;
     padding-top: 10px;
-    width: 300px;
+    width: 275px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 20px;
     position: absolute;
+    left: 50px;
     text-align: center;
-    bottom: 20px;
+    bottom: 100px;
 }
 
 .project_text:hover {
