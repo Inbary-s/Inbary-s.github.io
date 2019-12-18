@@ -4,8 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://kit.fontawesome.com/00fbdd65c7.js" crossorigin="anonymous"></script> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand|Tenor+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style_Bubbles.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
     <title>My Portfolio</title>
@@ -13,71 +18,129 @@
 
 <body>
     <!--nav bar here-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand text-white" href="index.html">Inbar Shucker</a>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" style='visibility:hidden'>
+            <span class="text-wrapper"><span class="letters"><a class="navbar-brand" href="#">Inbar Shucker</a></span></span>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-item nav-link" href="index.html" style="padding-right: 30px; padding-left: 30px; border-right: 1px solid #cccccc;">About <span class="sr-only">(current)</span></a>
-            <a class="nav-item nav-link active" href="#" style="padding-right: 30px; padding-left: 30px; border-right: 1px solid #cccccc;">Portfolio</a>
-            <a class="nav-item nav-link" href="contact.html" style="padding-left: 30px;" >Contact</a>
+          <div class="navbar-nav section table-of-contents">
+            <a class="nav-item nav-link" href="#about" style="padding-right: 30px; padding-left: 30px;">About <span class="sr-only"></span></a>
+            <a class="nav-item nav-link" href="#contact" style="padding-left: 30px;" >Contact</a><span class="sr-only"></span></a>
           </div>
         </div>
     </nav>
     
     <div class="container">
-        
-        <div class="row">
-            <div class="col-md-12">
-                <!--header-->
-                <h2>Portfolio</h2>
-            </div>
+        <div class="row justify-content-center">
+            <h1>Inbar S Shucker</h1>
         </div>
-        
-        <div class="row">
-            <div class="col-md-6 project">
-                <a href="https://inbary-s.github.io/brewery-finder/"><img src="assets/images/portfolio-card_drinking_buddy.png" alt="drinking locator app"></a>
-                        
-                <div class="project_text">
-                    <p>Drinking Buddy</p>
-                </div> 
-            </div>
-            <div class="col-md-6 project">
-                <a href="https://inbary-s.github.io/weather-app/"><img src="assets/images/portfolio-card_weather.png" alt="Weather dashboard"></a>
-                
-                <div class="project_text">
-                    <p>Weather Dashboard</p>
-                </div>
-            </div>
+        <div class="row justify-content-center">
+            <h2 class="ml7">
+                <span class="text-wrapper">
+                    <span class="letters">Welcome to My Portfolio</span>
+                </span>
+            </h2>
         </div>
-        
-        <div class="row">
-            <div class="col-md-6 project">
-                <a href="https://inbary-s.github.io/password-generator/"><img src="assets/images/portfolio-card_pw.png" alt="Password genertor"></a>
-                                
-                <div class="project_text">
-                    <p>Password Generator</p>
-                </div> 
-            </div>
-            <!-- <div class="col-md-6 project">
-                <a href="#"><img src="assets/images/coy.jpg" width="300" height="300" alt="Widget"></a>
-                
-                <div class="project_text">
-                    <p>Widget</p>
-                </div> 
-            </div> -->
+        <div class="row justify-content-center">
+            <i class="fas fa-sort-down fa-4x bounce-top"></i>
         </div>
-        
-
-        <nav class="nav fixed-bottom navbar-light footer justify-content-center">
-            <!--footer here-->
-            <p>Copyright © Inbar Shucker</p>
-        </nav>   
+        <div class="row justify-content-center project">
+        <a href="https://inbary-s.github.io/brewery-finder/" target="blank"class="tooltipped" data-position="right" data-tooltip="In this project,<br> using multiple server-side API calls,<br> Bootstrap, and Bulma,<br> I have worked with my team to create <br> a drinking buddy to help you find <br>where to go get your deink tonight."><img src="assets/images/portfolio-card_drinking_buddy_sketch.png" data-src="assets/images/portfolio-card_drinking_buddy_sketch.png" data-hover="assets/images/portfolio-card_drinking_buddy.png" class="images" alt="drinking locator app">                     
+            <div class="project_text">
+                Drinking Buddy
+            </div> 
+        </a>
     </div>
+    <div class="row justify-content-center project">
+        <a href="https://inbary-s.github.io/weather-app/" target="blank"class="tooltipped" data-position="right" data-tooltip="In this project,<br> using multiple API calls, <br>I have designed and developed a <br>weather dashboard which also includes<br> a forecast and UV index."><img src="assets/images/portfolio-card_weather_sktech.png" data-src="assets/images/portfolio-card_weather_sktech.png" data-hover="assets/images/portfolio-card_weather.png" class="images" alt="Weather dashboard">            
+            <div class="project_text">
+                Weather Dashboard
+            </div>
+        </a>
+    </div>   
+    <div class="row justify-content-center project">    
+        <a href="https://inbary-s.github.io/password-generator/" target="blank" class="tooltipped" data-position="right" data-tooltip="We all know you need<br> a better password. <br>Here I built a tool <br>for you to find your perfect one <br>and copy to your safe place<br> using JS, jquery and Bootstrap."><img src="assets/images/portfolio-cards_pw_sketch.png" data-src="assets/images/portfolio-cards_pw_sketch.png" data-hover="assets/images/portfolio-card_pw.png" class="images" alt="Password genertor">              
+            <div class="project_text">
+                Password Generator
+            </div> 
+        </a>
+    </div>
+
+<div class="row-flex-wrap">
+        <div class="col-md-6 images profile-pic-flex-wrap">
+            <!--image-->
+                <img src="assets/images/profile_sketch.png" data-src="assets/images/profile_sketch.png" data-hover="assets/images/profile.png" width="400" height="400" class="img-fluid float-left images" alt="Inbar's Profile photo" style="position: relative; padding-right: 30px; z-index:1;">
+        </div>
+        <div class="col-md section scrollspy" id="about">
+            <!--text-->
+            <h2> A little bit about me...</h2>
+            <p>I enjoy creating! Weather it is graphics, training videos, or working on complex solutions for businesses.</p> 
+            <p>I am a seasoned e-commerce specialist, PM Director, graphic designer and web-developer.</p><br>
+            <h3>Check Me Out!</h3>  
+            <h4><a href="https://www.linkedin.com/in/inbar-amber-shucker/" class="tooltipped" data-position="top" data-tooltip="LinkedIn!"><i class="fab fa-linkedin-in fa-2x"></i></a>      
+            <a href="https://github.com/inbary-s" class="tooltipped" data-position="top" data-tooltip="GitHub!"> <i class="fab fa-github fa-2x"></i></a>  
+            <a href="assets/inbar2020.pdf" target="blank" alt="Resume"class="tooltipped" data-position="top" data-tooltip="My Resume!" margin="10"><i class="fas fa-file fa-2x"></i></a></h4>
+            <p>Don’t hesitate to contact me! Together we can make anything happen!</p>
+
+        </div>
+    </div>
+
+<div class="row-flex-wrap section scrollspy container" id="contact" >
+    <div class="row-fluid float-left">
+        <!-- <div class="col-md"> -->
+            <h2> Get in Touch!</h2>
+        <!-- </div> -->
+        <!-- <div class="col-md"> -->
+        <!-- </div> -->
+    </div>
+    <div class="row-fluid container">
+        <form>
+            <span>
+                <a href="tel:720-933-0410" class="tooltipped" data-position="top" data-tooltip="Click to Call Me!"><i class="fas fa-phone fa-2x"></i></a>
+                <a href="inbarsim6@gmail.com" class="tooltipped" data-position="top" data-tooltip="Click to Email Me!"><i class="fas fa-envelope fa-2x"></i></a>
+            </span>
+            <div class="form-group">
+                <label for="formGroupExampleInput">Name</label>
+                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Jane Doe">
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlInput1">Email</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="example@gmail.com">
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlTextarea1">Message</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="6"></textarea>
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+</div>
+
+    <ul class="bubbles">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+
+    <nav class="nav fixed-bottom navbar-light footer justify-content-center">
+        <!--footer here-->
+        Copyright © Inbar Shucker
+    </nav>   
+
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="assets/function.js"></script>
 </body>
 </html>
