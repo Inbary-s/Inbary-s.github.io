@@ -2,7 +2,7 @@ body html{
     font-family: 'Quicksand', sans-serif;
 }
 .navbar {
-    padding: 0 15% 0 15%;
+    padding: 5% 15% 3% 15%;
     font-family: 'Quicksand', sans-serif;
     position: fixed;
     top: 0;
@@ -23,6 +23,7 @@ body html{
 }
 .nav-item {
     padding: 0;
+    font-size: 22px;
 }
 /*logo*/
 a.navbar-brand {
@@ -177,6 +178,11 @@ textarea{
     color: white;
     font-family: 'Quicksand', sans-serif;
     text-align: center;
+    font-size: 16px;
+}
+#contact {
+    width: 100;
+    padding: 0;
 }
 @media (max-width: 991.98px) {
     .nav-item {
@@ -184,20 +190,24 @@ textarea{
         padding-top: 10px;
     }  
     a.navbar-brand {
-        width: 30%;
+        width: 50%;
         display: block;
         white-space:normal;
-        padding: 5px 5px 25px 5px;
+        padding: 5px 5px 50px 5px;
+        line-height: 1.5;
     } 
     .navbar {
-        padding: 0 2% 0 2%;       
+        padding: 2% 2% 15% 2%;       
     } 
     .navbar-toggler {
-        margin-bottom: 6%;
+        margin: 6% 6% 12% 0;
         background-color: #b291ff4b;
         border: none;
         color: white;
     }  
+    .navbar-toggler:selected, .navbar-toggler:focus, .navbar-toggler:active{
+        background-color: #b291ff;
+    }
     #about{
         contain: layout;
     }
@@ -211,13 +221,14 @@ textarea{
     } 
     a.navbar-brand {
         white-space: normal;
-        font-size: 80%;
+        margin: 6% 6% 12% 0;
     }
     .letters {
         font-size: 80%;
     }
     form {
         width: 100%;
+        right: 0;
     }
 }
 
