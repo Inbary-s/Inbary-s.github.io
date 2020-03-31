@@ -1,0 +1,35 @@
+[{
+    "href":"https://inbary-s.github.io/brewery-finder/",
+    "dataPosition": "left",
+    "dataTooltip":"<strong>Drinking Buddy</strong><br><br>In this project,<br> using multiple server-side API calls,<br> Bootstrap, and Bulma,<br> I have worked with my team to create <br> a drinking buddy to help you find <br>where to go get your drink tonight.<br><br> Click the card to view project",
+    "src": "assets/images/portfolio-card_drinking_buddy_sketch.png",
+    "dataSrc": "assets/images/portfolio-card_drinking_buddy_sketch.png",
+    "dataHover": "assets/images/portfolio-card_drinking_buddy.png",
+    "alt": "drinking locator app"
+},
+{
+    "href":"https://inbary-s.github.io/brewery-finder/",
+    "dataPosition": "left",
+    "dataTooltip":"<strong>Drinking Buddy</strong><br><br>In this project,<br> using multiple server-side API calls,<br> Bootstrap, and Bulma,<br> I have worked with my team to create <br> a drinking buddy to help you find <br>where to go get your drink tonight.<br><br> Click the card to view project",
+    "src": "assets/images/portfolio-card_drinking_buddy_sketch.png",
+    "dataSrc": "assets/images/portfolio-card_drinking_buddy_sketch.png",
+    "dataHover": "assets/images/portfolio-card_drinking_buddy.png",
+    "alt": "drinking locator app"
+},
+{
+    "href":"https://inbary-s.github.io/weather-app/",
+    "dataPosition": "right",
+    "dataTooltip":"<strong>Weather Dashboard</strong><br><br>In this project,<br> using multiple API calls, <br>I have designed and developed a <br>weather dashboard which also includes<br> a forecast and UV index.<br><br> Click the card to view project",
+    "src": "assets/images/portfolio-card_weather_sktech.png",
+    "dataSrc": "assets/images/portfolio-card_weather_sktech.png",
+    "dataHover": "assets/images/portfolio-card_weather.png",
+    "alt": "Weather dashboard"
+},{
+    "href":"https://inbary-s.github.io/brewery-finder/",
+    "dataPosition": "left",
+    "dataTooltip":"<strong>Drinking Buddy</strong><br><br>In this project,<br> using multiple server-side API calls,<br> Bootstrap, and Bulma,<br> I have worked with my team to create <br> a drinking buddy to help you find <br>where to go get your drink tonight.<br><br> Click the card to view project",
+    "src": "assets/images/portfolio-card_drinking_buddy_sketch.png",
+    "dataSrc": "assets/images/portfolio-card_drinking_buddy_sketch.png",
+    "dataHover": "assets/images/portfolio-card_drinking_buddy.png",
+    "alt": "drinking locator app"
+}]

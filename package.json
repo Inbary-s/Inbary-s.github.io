@@ -1,0 +1,32 @@
+{
+  "name": "Inbary-s.github.io",
+  "version": "1.0.0",
+  "description": "Here you will find details about me, my body of work and ways to contact me.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
+    "start:prod": "node server.js",
+    "start:dev": "concurrently \"nodemon --ignore 'client/*'\" \"npm run client\"",
+    "client": "cd client && npm run start",
+    "install": "cd client && npm install",
+    "build": "cd client && npm run build",
+    "heroku-postbuild": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Inbary-s/Inbary-s.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Inbary-s/Inbary-s.github.io/issues"
+  },
+  "homepage": "https://github.com/Inbary-s/Inbary-s.github.io#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "if-env": "^1.0.4",
+    "path": "^0.12.7"
+  }
+}
