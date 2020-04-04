@@ -8,15 +8,6 @@
     "alt": "drinking locator app"
 },
 {
-    "href":"https://inbary-s.github.io/brewery-finder/",
-    "dataPosition": "left",
-    "dataTooltip":"<strong>Drinking Buddy</strong><br><br>In this project,<br> using multiple server-side API calls,<br> Bootstrap, and Bulma,<br> I have worked with my team to create <br> a drinking buddy to help you find <br>where to go get your drink tonight.<br><br> Click the card to view project",
-    "src": "assets/images/portfolio-card_drinking_buddy_sketch.png",
-    "dataSrc": "assets/images/portfolio-card_drinking_buddy_sketch.png",
-    "dataHover": "assets/images/portfolio-card_drinking_buddy.png",
-    "alt": "drinking locator app"
-},
-{
     "href":"https://inbary-s.github.io/weather-app/",
     "dataPosition": "right",
     "dataTooltip":"<strong>Weather Dashboard</strong><br><br>In this project,<br> using multiple API calls, <br>I have designed and developed a <br>weather dashboard which also includes<br> a forecast and UV index.<br><br> Click the card to view project",
@@ -25,11 +16,43 @@
     "dataHover": "assets/images/portfolio-card_weather.png",
     "alt": "Weather dashboard"
 },{
-    "href":"https://inbary-s.github.io/brewery-finder/",
+    "href":"https://inbary-s.github.io/password-generator/",
     "dataPosition": "left",
-    "dataTooltip":"<strong>Drinking Buddy</strong><br><br>In this project,<br> using multiple server-side API calls,<br> Bootstrap, and Bulma,<br> I have worked with my team to create <br> a drinking buddy to help you find <br>where to go get your drink tonight.<br><br> Click the card to view project",
-    "src": "assets/images/portfolio-card_drinking_buddy_sketch.png",
-    "dataSrc": "assets/images/portfolio-card_drinking_buddy_sketch.png",
-    "dataHover": "assets/images/portfolio-card_drinking_buddy.png",
-    "alt": "drinking locator app"
+    "dataTooltip":"Password Generator</strong><br><br>We all know you need<br> a better password. <br>Here I built a tool <br>for you to find your perfect one <br>and copy to your safe place<br> using JS, jquery and Bootstrap.<br><br> Click the card to view project",
+    "src": "assets/images/portfolio-cards_pw_sketch.png",
+    "dataSrc": "assets/images/portfolio-cards_pw_sketch.png",
+    "dataHover": "assets/images/portfolio-card_pw.png",
+    "alt": "Password genertor"
+},{
+    "href":"https://github.com/Inbary-s/employee_tracker",
+    "dataPosition": "right",
+    "dataTooltip":"<strong>Employee Tracker</strong><br><br>In this project,<br> using MySQL DB, <br>I built a node module <br>for employee tracking. <br>this app will allow you to <br> to add departments,<br> roles, and employees.<br> You can edit and manage <br>salaries and plan your <br>budget with an easy click!<br><br> Click the card to view project",
+    "src": "assets/images/portfolio-card_et_sketch.png",
+    "dataSrc": "assets/images/portfolio-card_et_sketch.png",
+    "dataHover": "assets/images/portfolio-card_et.png",
+    "alt": "Password genertor"
+},{
+    "href":"https://blooming-headland-98819.herokuapp.com/",
+    "dataPosition": "left",
+    "dataTooltip":"<strong>Note Taker</strong><br><br>In this project,<br> using MySQL, I built an app for<br> note taking where you can <br>create add and delete notes. <br><br> Click the card to view project",
+    "src": "assets/images/portfolio-cards_nt_sketch.png",
+    "dataSrc": "assets/images/portfolio-cards_nt_sketch.png",
+    "dataHover": "assets/images/portfolio-cards_nt.png",
+    "alt": "Note Taker"
+},{
+    "href":"https://protected-retreat-19130.herokuapp.com/",
+    "dataPosition": "right",
+    "dataTooltip":"<strong>Eating Burgers</strong><br><br>In this project,<br> using MySQL and Handlebars,<br> I careated an app that manipulates <br>the database from the front end. <br>Just to tease your appetite.<br><br> Click the card to view project",
+    "src": "assets/images/portfolio-cards-burger_sketch.png",
+    "dataSrc": "assets/images/portfolio-cards-burger_sketch.png",
+    "dataHover": "assets/images/portfolio-cards-burger.png",
+    "alt": "Eat the burger"
+},{
+    "href":"https://hidden-beyond-22000.herokuapp.com/",
+    "dataPosition": "left",
+    "dataTooltip":"<strong>Your next Binge</strong><br><br>In this project,<br> I was workng in a team <br> together we bult an app that <br>using server API calls, <br> MySQL Pug and materialize,<br> we built an app that has safe <br>user authentication and login. <br>User creation and review submission.<br><br> Click the card to view project",
+    "src": "assets/images/portfolio-cards_proj2_sketch.png",
+    "dataSrc": "assets/images/portfolio-cards_proj2_sketch.png",
+    "dataHover": "assets/images/portfolio-cards_proj2.png",
+    "alt": "Your Next Binge"
 }]

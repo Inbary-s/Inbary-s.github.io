@@ -4,12 +4,12 @@ export default () => {
    return ( 
 
     <nav>
-        <div class="nav-wrapper">
-        <a href="#!" class="brand-logo">Inbar Shucker</a>
-        <ul class="right hide-on-med-and-down">
+        <div className="nav-wrapper">
+        <a href="#!" className="brand-logo">Inbar Shucker</a>
+        <ul className="right hide-on-med-and-down">
             <li><a href="/">About</a></li>
             <li><a href="badges.html">Contact</a></li>
-            <li class="active"><a href="/projects">Projects</a></li>
+            <li className="active"><a href="/projects">Projects</a></li>
         </ul>
         </div>
   </nav>

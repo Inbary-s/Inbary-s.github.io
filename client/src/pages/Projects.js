@@ -5,7 +5,9 @@ import cards from '../utils/Projects.json';
 export default () => {
     console.log(cards)
     return(
-        cards.map(card=><Project data={card} />)
+        <div className="row">
+            {cards.map(card=><Project data={card} key={card.src} />)}
+        </div>
                 
     )
 }
