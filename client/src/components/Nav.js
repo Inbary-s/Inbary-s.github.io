@@ -5,12 +5,11 @@ export default () => {
 
     <nav>
         <div className="nav-wrapper">
-        <a href="#!" className="brand-logo">Inbar Shucker</a>
-        <ul className="right hide-on-med-and-down">
-            <li><a href="/">About</a></li>
-            <li><a href="badges.html">Contact</a></li>
-            <li className="active"><a href="/projects">Projects</a></li>
-        </ul>
+            <a href="/" className="brand-logo">Inbar Shucker</a>
+            <ul className="right hide-on-med-and-down">
+                <li><a href="/" className="nav-item">About</a></li>
+                <li><a href="/projects" className="nav-item">Projects</a></li>
+            </ul>
         </div>
   </nav>
     // <nav className="navwrapper">

@@ -1,17 +1,24 @@
 body html{
     font-family: 'Quicksand', sans-serif;
+    margin: 40%;
 }
-.navbar {
-    padding: 3% 15% 3% 15%;
+nav{
+    background-color: white;
+}
+.nav-wrapper {
+    background-color: white;
+    margin: 0 10%;
+    padding: 3%, 3% 3% 3%;
     font-family: 'Quicksand', sans-serif;
     position: fixed;
     top: 0;
     z-index: 2;
 }
-.navbar-light .navbar-brand {
+.brand-logo {
     font-family: 'Quicksand', sans-serif !important;
     color: #270772;
     text-shadow: 2px 2px #804aff3b;
+    background-color: white;
     font-weight: 100;
     font-size: 26px;
 }
@@ -21,16 +28,71 @@ body html{
 .navbar-expand-lg {
     width: 100%;
 }
-.nav-item {
-    padding: 0;
+.card .card-image .projects{
+    font-family: 'Quicksand', sans-serif !important;
+    border: none;
+    /* padding-left: 20px; */
+    justify-content: center;
+    width: 360 px;
+}
+.card .card-reveal {
+    padding: 30px;
+}
+.projectInfo {
+    /* left: 29%; */
+    padding-top: 20px;
+}
+.row .col.s6 {
+    margin: 3%;
+    width: 30%;
+    border: none;
+}
+.row {
+    padding-left: 20%;
+}
+.card-title {
+    font-family: 'Quicksand', sans-serif !important;
+    font-weight: 2000;
+    color: #270772;
+    width: 100%;
+}
+.card-content {
+    margin-bottom: 30px;
+}
+i {
+    float: right;
+    font-size: 80%;
+}
+p {
+    font-family: 'Quicksand', sans-serif;
+    color: #270772;
+    background-color: white;
+    position: absolute;
+    margin: 0 0 0 20px;
+    width: 300px;
+    font-size: 26px;
+    /* text-align: center; */
+    /* bottom: 190px; */
+}
+.card-reveal {
+    /* background-color: white;
+    padding: 60px;
+    z-index: 2; */
+    text-align: center;
+    align-content: center;
+}
+a.nav-item {
+    padding: 20px;
+    margin-top: 5%;
     font-size: 22px;
+    color: #270772 !important;
 }
 /*logo*/
-a.navbar-brand {
+a.brand-logo {
     width: 30%;
     text-align: center;
     border: #270772 solid 2px 0 2px 0;
-    padding: 0 5px 15px 5px;
+    padding: 10px 5px 15px 5px;
     color: #270772;
 }
 #contactTitle{
@@ -45,6 +107,20 @@ a.navbar-brand {
     overflow: auto;
     z-index: 1;
     color: #270772;
+}
+.aboutMe {
+    padding: 0 10%;
+    font-family: 'Quicksand', sans-serif;
+    /* position: absolute; */
+}
+.image {
+    /* position: relative; */
+    /* padding-right: 20px; */
+    padding-bottom: 10px;
+}
+#about {
+    position: relative;
+    float: right;
 }
 /*form fields*/
 form {
