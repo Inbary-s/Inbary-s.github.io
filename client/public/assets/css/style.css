@@ -115,6 +115,7 @@ a.brand-logo {
     padding: 0 10%;
     font-family: 'Quicksand', sans-serif;
     margin-top: 100px !important;
+    /* margin-top: 200%; */
 }
 .image {
     padding-bottom: 10px;
@@ -219,7 +220,7 @@ h2 {
   }
   .ml7 .letter {
     transform-origin: 0 100%;
-    display: inl%ine-block;
+    display: inline-block;
     line-height: 1em;
   }
 
@@ -241,6 +242,10 @@ img .images{
     border-radius: 10px;
     margin-bottom: 25%;
 }
+.images{
+    height: 466px;
+}
+
 a {
     color: #270772;
     font-weight: 10;
@@ -248,14 +253,16 @@ a {
 }
 h3{
     font-family: 'Tenor Sans', sans-serif;
+    left: 0.5em;
     font-weight: 600;
 }
 p{
     font-size: 18px;
 }
-.aboutMe{
+/* .aboutMe{
     margin-top: 40px;
-}
+    padding-top: 600em;
+} */
 #about{
     margin: 0;
 }
@@ -297,6 +304,9 @@ textarea{
     border-radius: 5px;
     padding: 20px;
     z-index: 0;
+}
+#P4 a.deployed, #P5 a.deployed{
+    display: none;
 }
 #contact {
     width: 100;

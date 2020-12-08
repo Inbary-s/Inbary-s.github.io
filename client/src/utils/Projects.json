@@ -1,4 +1,15 @@
 [{
+    "id": "P0",
+    "href":"https://github.com/Inbary-s/productivity-app",
+    "deployedHref":"http://surata-app.herokuapp.com/",
+    "dataPosition": "left",
+    "dataTooltip":"In this project, I have worked with my team to create an all encomapsing productivity app to allow yout to create and keep track of your goals and tasks while staying focused at what's in front of you. We've used React to build a calendar from scrath which integrates your goals and tasks due date, easy to track progress bars, Pomodoro timer to help you stay focused, and even a meditation app to help clear your mind and be ready to tackle anything. Click the card to view project",
+    "src": "assets/images/portfolio-cards_surata_sketch.png",
+    "dataSrc": "assets/images/portfolio-cards_surata_sketch.png",
+    "dataHover": "assets/images/portfolio-cards_surata.png",
+    "alt": "Surată"
+},{
+    "id": "P1",
     "href":"https://github.com/Inbary-s/brewery-finder",
     "deployedHref":"https://inbary-s.github.io/brewery-finder/",
     "dataPosition": "left",
@@ -7,8 +18,8 @@
     "dataSrc": "assets/images/portfolio-card_drinking_buddy_sketch.png",
     "dataHover": "assets/images/portfolio-card_drinking_buddy.png",
     "alt": "Drink Locator App"
-},
-{
+},{
+    "id": "P2",
     "href":"https://github.com/Inbary-s/weather-app",
     "deployedHref":"https://inbary-s.github.io/weather-app/",
     "dataPosition": "right",
@@ -18,6 +29,7 @@
     "dataHover": "assets/images/portfolio-card_weather.png",
     "alt": "Weather Dashboard"
 },{
+    "id": "P3",
     "href":"https://github.com/Inbary-s/password-generator",
     "deployedHref":"https://inbary-s.github.io/password-generator/",
     "dataPosition": "left",
@@ -27,6 +39,7 @@
     "dataHover": "assets/images/portfolio-card_pw.png",
     "alt": "Password Genertor"
 },{
+    "id": "P4",
     "href":"https://github.com/Inbary-s/employee_tracker",
     "dataPosition": "right",
     "dataTooltip":"In this project, using MySQL DB, I built a node module for employee tracking. this app will allow you to  to add departments, roles, and employees. You can edit and manage salaries and plan your budget with an easy click! Click the card to view project",
@@ -35,6 +48,7 @@
     "dataHover": "assets/images/portfolio-card_et.png",
     "alt": "Employee Tracker"
 },{
+    "id": "P5",
     "href":"https://github.com/Inbary-s/note_taker",
     "deloyedHref":"https://blooming-headland-98819.herokuapp.com/",
     "dataPosition": "left",
@@ -44,6 +58,7 @@
     "dataHover": "assets/images/portfolio-cards_nt.png",
     "alt": "Note Taker"
 },{
+    "id": "P6",
     "href":"https://github.com/Inbary-s/node-express-handlbars",
     "deployedHref":"https://protected-retreat-19130.herokuapp.com/",
     "dataPosition": "right",
@@ -53,6 +68,7 @@
     "dataHover": "assets/images/portfolio-cards-burger.png",
     "alt": "Eat the Burger"
 },{
+    "id": "P7",
     "href":"https://github.com/americajones/best-project",
     "deployedHref":"https://hidden-beyond-22000.herokuapp.com/",
     "dataPosition": "left",

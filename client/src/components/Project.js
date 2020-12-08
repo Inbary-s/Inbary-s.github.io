@@ -12,11 +12,15 @@ const Project = (props) => {
     const handleAway = (e) => {
         setProjectCard({ src: props.data.src })
     }
-
-    // console.log(props.data.dataTooltip)
+    
+    const handleId = (e) => {
+        setProjectCard({ id: props.data.id })
+        // console.log(props.data.id);
+    }
+    // console.log(props.data.id)
     // href={props.data.href}
     return(
-        <div className="projects col s6 card">
+        <div className="projects col s6 card" id={props.data.id}>
             <div className="card-image card-action sticky-action waves-effect waves-block waves-light">
                 <img onMouseOver={handleHover} onMouseOut={handleAway} className="project activator" src={projectCard.src} data-hover={props.data.dataHover} className="images" alt={props.data.alt}/>
             </div>
@@ -26,7 +30,7 @@ const Project = (props) => {
             </div>
             <div className="card-content">
                 <span className="card-title activator text-darken-4">{props.data.alt}<i className="fas fa-ellipsis-v"></i></span>
-                <p><a href={props.data.href}>GitHub</a> | <a href={props.data.deployedHref}>Deployed App</a></p>
+                <p><a href={props.data.href}>GitHub</a> | <a href={props.data.deployedHref} className="deployed">Deployed App</a></p>
                 </div>
         </div>
     )
