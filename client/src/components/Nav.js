@@ -5,8 +5,8 @@ export default () => {
 
     <nav>
         <div className="nav-wrapper">
-            <a href="/" className="brand-logo">Inbar Shucker</a>
-            <ul className="right hide-on-med-and-down">
+            <a href="/" className="brand-logo" id="logo">Inbar Shucker</a>
+            <ul className="right">
                 {/* <li><a href="/" className="nav-item">About</a></li> */}
                 <li><a href="/projects" className="nav-item">Projects</a></li>
             </ul>

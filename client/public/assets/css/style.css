@@ -31,11 +31,13 @@ nav{
 .navbar-expand-lg {
     width: 100%;
 }
-.card .card-image .projects{
+.card .card-image .projects .card-acion{
     font-family: 'Quicksand', sans-serif !important;
     border: none;
     justify-content: center;
     width: 360 px;
+    padding: none;
+    border: none;
 }
 .card .card-reveal {
     padding: 30px;
@@ -44,8 +46,8 @@ nav{
     padding-top: 20px;
 }
 .row .col.s6 {
-    margin: 3%;
-    width: 30%;
+    margin: 1em;
+    width: 35%;
     border: none;
 }
 .row {
@@ -54,17 +56,28 @@ nav{
 }
 .card-title {
     font-family: 'Quicksand', sans-serif !important;
-    font-weight: 2000;
+    font-weight: 200;
     color: #270772;
     width: 80%;
+    font-size: 1.5em !important;
 }
+/* .project-title {
+    font-size: 0.1em !important;
+
+} */
 .card-content {
-    margin-bottom: 30px;
+    margin: 3em;
 }
 i {
     float: right;
-    right: 10px;
+    right: -2.5em;
     font-size: 70%;
+    margin-right: -3em;
+}
+.icon {
+    float: right;
+    right: 0;
+    margin: 2em;
 }
 p {
     font-family: 'Quicksand', sans-serif;
@@ -73,7 +86,7 @@ p {
     position: absolute;
     margin: 0 0 0 20px;
     width: 300px;
-    font-size: 26px;
+    /* font-size: 26px; */
 }
 .pAbout {
     position: relative;
@@ -167,10 +180,145 @@ h2 {
     -webkit-animation: bounce-top 0.9s 2 both;
     animation: bounce-top 0.9s 2 both;
 }
-@media (max-width: 700px) {
-    #about {
-        position: fixed;
+ 
+/* Responsiveness */
+@media (max-width: 1498px) {
+    .card-title {
+        font-size: 1em !important;
     }
+}
+@media (max-width: 1350px) {
+    .aboutMe {
+        position: relative;
+    }
+    #profilePic {
+        position: absolute;
+        float: left;
+        left: 25%;
+    }
+    #about {
+        position: relative;
+        top: 25em;
+        right: 14%;
+    }
+    .navbar-toggler {
+        margin: 6% 6% 12% 0;
+        background-color: #b291ff4b;
+        border: none;
+        color: white;    
+    }  
+    .navbar-toggler:selected, .navbar-toggler:focus, .navbar-toggler:active{
+        background-color: #b291ff;
+    }
+    .nav-item {
+        display: block;
+    }
+    .card-title {
+        font-size: .95em !important;
+    }
+}
+@media(max-width:1180px) {
+    .card-title {
+        font-size: 1.5em !important;
+    }
+    .row .col.col.s6{
+        width: 80%;
+    }
+    .card-image {
+        height: 80%;
+        width: 50%;
+        float: left;
+        position: relative;
+    }
+    .card-content {
+        left: 20em;
+        position: absolute;
+    }
+    p {
+        width: 12em;
+    }
+}
+
+
+@media (max-width: 991.98px) {
+    #profilePic {
+        position: relative;
+    }
+    .nav-item {
+        border: none;
+        padding-top: 10px;
+        display: block; 
+    }  
+    a.navbar-brand {
+        width: 50%;
+        display: block;
+        white-space:normal;
+        padding: 5px 5px 50px 5px;
+        line-height: 1.5;
+    } 
+    .navbar {
+        padding: 2% 2% 15% 2%;       
+    } 
+    .navbar-toggler {
+        margin: 6% 6% 12% 0;
+        background-color: #b291ff4b;
+        border: none;
+        color: white;    
+    }  
+    .navbar-toggler:selected, .navbar-toggler:focus, .navbar-toggler:active{
+        background-color: #b291ff;
+    }
+    #about{
+        contain: layout;
+    }
+    .card-title {                                                                                
+        font-size: 1.2em !important;
+    }
+    .card-content {
+        left: 18em;
+        position: absolute;
+        width: 14em;
+    }
+    p {
+        width: 12em;
+    }
+    .card-image {
+        width: 60%;
+    }
+}
+@media (max-width: 1026px) {
+    .image {
+        height: 80px;
+        width: 80px; 
+        margin-left: 400px;
+    }
+    #profilePic {
+        position: relative;
+        height: 400px;
+        width: 400px;
+        margin-left: 35%;
+    }
+    nav {
+        height: 90px;
+    }
+    .nav-item {
+        display: block; 
+    }
+    .card .card-image .projects {
+        margin: 2em;
+        font-size: 50%;
+    }
+    .navbar-toggler {
+        margin: 6% 6% 12% 0;
+        background-color: #b291ff4b;
+        border: none;
+        color: white;    
+    }  
+    .navbar-toggler:selected, .navbar-toggler:focus, .navbar-toggler:active{
+        background-color: #b291ff;
+    }
+}
+@media (max-width: 700px) {
     .image {
         height: 80px;
         width: 80px;
@@ -178,23 +326,79 @@ h2 {
     }
     nav {
         height: 90px;
+        display: block; 
+    }
+    .navbar-toggler {
+        margin: 6% 6% 12% 0;
+        background-color: #b291ff4b;
+        border: none;
+        color: white;    
+    }  
+    .navbar-toggler:selected, .navbar-toggler:focus, .navbar-toggler:active{
+        background-color: #b291ff;
+    }
+    .nav-item {
+        display: block;
+    }
+    .card-title {
+        font-size: 1.2em !important;
+    }
+    .card-content {
+        bottom: 0;
+        left:0;
+        width: 20em;
+        position: relative;
+    }
+    p {
+        width: 14em;
+    }
+    .card-image {
+        width: 100%;
     }
 }
-@media (max-width: 1026px) {
+@media (max-width: 560px) {
     #about {
-        position: fixed;
+        contain: layout;
     }
-    .image {
-        height: 80px;
-        width: 80px; 
-        margin-left: 400px;
+    .navbar {
+        padding: 0 2% 120px 2%; 
+    } 
+    a.navbar-brand {
+        white-space: normal;
+        margin: 6% 6% 12% 0;
     }
-    nav {
-        height: 90px;
+    #logo {
+        left: 3.5em;
+        font-size: 28px;
+        margin-top: 0.1em;
     }
-    .card .card-image .projects {
-        margin: 200px;
-        font-size: 50%;
+    .letters {
+        font-size: 80%;
+    }
+    form {
+        width: 100%;
+        right: 0;
+    }
+    .navbar-toggler {
+        margin: 6% 6% 12% 0;
+        background-color: #b291ff4b;
+        border: none;
+        color: white;    
+    }  
+    .navbar-toggler:selected, .navbar-toggler:focus, .navbar-toggler:active{
+        background-color: #b291ff;
+    }
+    .nav-item {
+        display: block;
+    }
+    .card-content {
+        width: 14em;
+    }
+    .card-image {
+        width: 100%;
+    }
+    p {
+        width: 12em;
     }
 }
 
@@ -259,10 +463,6 @@ h3{
 p{
     font-size: 18px;
 }
-/* .aboutMe{
-    margin-top: 40px;
-    padding-top: 600em;
-} */
 #about{
     margin: 0;
 }
@@ -284,9 +484,6 @@ p{
 .btn:hover {
     background-color: #270772c4;
     color: white;
-}
-i {
-    margin-right: 20px;
 }
 i:hover {
     color: #270772c4;
@@ -312,52 +509,5 @@ textarea{
     width: 100;
     padding: 0;
 }
-@media (max-width: 991.98px) {
-    .nav-item {
-        border: none;
-        padding-top: 10px;
-    }  
-    a.navbar-brand {
-        width: 50%;
-        display: block;
-        white-space:normal;
-        padding: 5px 5px 50px 5px;
-        line-height: 1.5;
-    } 
-    .navbar {
-        padding: 2% 2% 15% 2%;       
-    } 
-    .navbar-toggler {
-        margin: 6% 6% 12% 0;
-        background-color: #b291ff4b;
-        border: none;
-        color: white;
-    }  
-    .navbar-toggler:selected, .navbar-toggler:focus, .navbar-toggler:active{
-        background-color: #b291ff;
-    }
-    #about{
-        contain: layout;
-    }
-}
-@media (max-width: 596px) {
-    #about {
-        contain: layout;
-    }
-    .navbar {
-        padding: 0 2% 120px 2%;       
-    } 
-    a.navbar-brand {
-        white-space: normal;
-        margin: 6% 6% 12% 0;
-    }
-    .letters {
-        font-size: 80%;
-    }
-    form {
-        width: 100%;
-        right: 0;
-    }
 
-}
 

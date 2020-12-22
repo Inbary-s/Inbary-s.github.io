@@ -29,7 +29,7 @@ const Project = (props) => {
                 <p className="projectInfo">{props.data.dataTooltip}</p>
             </div>
             <div className="card-content">
-                <span className="card-title activator text-darken-4">{props.data.alt}<i className="fas fa-ellipsis-v"></i></span>
+                <span className="card-title project-title activator text-darken-4">{props.data.alt}<i className="fas fa-ellipsis-v"></i></span>
                 <p><a href={props.data.href}>GitHub</a> | <a href={props.data.deployedHref} className="deployed">Deployed App</a></p>
                 </div>
         </div>
