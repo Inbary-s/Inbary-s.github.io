@@ -77,8 +77,7 @@ i {
 .icon {
     float: right;
     right: 0;
-    margin: 2em;
-}
+    margin: 1.5em;}
 p {
     font-family: 'Quicksand', sans-serif;
     color: #270772;
@@ -399,6 +398,55 @@ h2 {
     }
     p {
         width: 12em;
+    }
+}
+@media (max-width: 420px) {
+    #about {
+        contain: layout;
+    }
+    /* .navbar {
+        padding: 0 2% 120px 2%; 
+    } 
+    a.navbar-brand {
+        white-space: normal;
+        margin: 6% 6% 12% 0;
+    } */
+    #logo {
+        left: 2em;
+        font-size: 20px;
+        margin-top: 0.5em;
+        width: 4em;
+    }
+    .letters {
+        font-size: 80%;
+    }
+    form {
+        width: 100%;
+        right: 0;
+    }
+    .navbar-toggler {
+        margin: 6% 6% 12% 0;
+        background-color: #b291ff4b;
+        border: none;
+        color: white;    
+    }  
+    .navbar-toggler:selected, .navbar-toggler:focus, .navbar-toggler:active{
+        background-color: #b291ff;
+    }
+    .card-content {
+        width: 14em;
+        position: relative;
+    }
+    .card-image {
+        width: 140%;
+        padding-left: 0;
+    }
+    p {
+        width: 10em;
+    }
+    .card {
+        border: none;
+        box-shadow: none;
     }
 }
 
