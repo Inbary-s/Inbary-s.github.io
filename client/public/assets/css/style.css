@@ -37,7 +37,7 @@ nav{
     justify-content: center;
     width: 360 px;
     padding: none;
-    border: none;
+    box-shadow: none;
 }
 .card .card-reveal {
     padding: 30px;
@@ -398,6 +398,9 @@ h2 {
     }
     p {
         width: 12em;
+    }
+    .row{
+        padding-left: 0;
     }
 }
 @media (max-width: 420px) {
